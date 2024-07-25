@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #d1b3c4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    color: #d1b3c4;
+    text-align: center;
+    padding: 20px 0 15px 0;
+    font-size: 30px;
+}
+
+.container {
+    background: white;
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.top {
+    background: #d1b3c4;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    width: 300px;
+    padding: 40px;
+}
+
+.menu {
+    float: left;
+    padding: 50px;
+}
+
+.options li {
+    float: left;
+    list-style: none;
+}
+
+.options li a {
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.options li a:hover {
+    background: #735d78;
+}
+
+.body {
+    overflow: hidden;
+}
+
+.box {
+    float: left;
+    width: 380px;
+    margin: 9px;
+    border: 0px solid;
+}
+
+.subtitle {
+    background: #735d78;
+    color: white;
+}
+
+.services {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.effect:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.content {
+    padding: 10px;
+    text-align: justify;
+}
+
+.button {
+    background: #735d78;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #0c2c57;
+    cursor: pointer;
+}
+
+.footer {
+    background: #735d78;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    width: 500px;
+    padding: 20px;
+}
+
+.right {
+    float: left;
+    width: 500px;
+    padding: 20px;
+}
+
+.below {
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.follow {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 0;
+}
